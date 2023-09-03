@@ -30,4 +30,23 @@
             <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
         </section>
     </div>
+
+    <div class="row" id="sandbox-container">
+        <h1 id="title">Test bootstrap datepicker</h1>
+        <div class="input-group date">
+            <input type="text" class="form-control"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous">
+    </script>
+
+    <script src="~/Scripts/bootstrap-datepicker.min.js"></script>
+
+    <script>
+        $('#sandbox-container .input-group.date').datepicker({
+        });
+    </script>
 </main>
